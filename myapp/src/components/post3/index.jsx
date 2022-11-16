@@ -35,7 +35,7 @@ const Post3 = () => {
             setLike(like + 1)
           }} />
   
-            <a href="#showcomment" className="targetcomment"> <FontAwesomeIcon icon={faComment}
+            <a href="#showcomment3" className="targetcomment"> <FontAwesomeIcon icon={faComment}
               className="icon1" />
             </a>
            
@@ -49,7 +49,7 @@ const Post3 = () => {
           {(like === 0) ? "" : <p> {like} Likes</p>}
         </p>
         <p className="caption"><b>Maria_imran</b> NOT TO QUIT!</p>
-        <p className="comment" id="showcomment">
+        <p className="comment" id="showcomment3">
           {(commentCount === 0) ? "" : <p>view all {commentCount} comments </p>}
         </p>
         <p id="comment3">
