@@ -52,7 +52,7 @@ const Post2 = () => {
         <p className="comment" id="showcomment">
           {(commentCount === 0) ? "" : <p>view all {commentCount} comments </p>}
         </p>
-        <p id="comment">
+        <p id="comment2">
   
         </p>
         <hr />
@@ -69,7 +69,7 @@ const Post2 = () => {
   
             </span>  </p>
           <p className="addcomment" onClick={() => {
-            document.querySelector("#comment").innerHTML += "<b>User_</b>" + comment + "<FontAwesomeIcon icon={faHeart}/>" + "<br/>"
+            document.querySelector("#comment2").innerHTML += "<b>User_</b>" + comment + "<FontAwesomeIcon icon={faHeart}/>" + "<br/>"
           }} > <button onClick={() => {
             setCommentCount(commentCount + 1)
           }}>post</button> </p>
