@@ -1,0 +1,122 @@
+.profileimg{
+  border-radius: 50%;
+  margin-right: 3px;
+  align-self: center;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin:  auto;
+  border: 2px solid #EEEEEE;
+  border-radius: 10px;
+  background-color: #fff;
+
+  
+}
+
+body{
+  background-color:#FAFAFA;
+}
+
+
+
+.header{
+  display: flex;
+  margin: 10px;
+justify-content: space-between;
+ 
+  
+ 
+
+}
+.profile{
+  display: flex;
+
+}
+
+
+.profilename{
+  align-self: center;
+  font-weight: bolder;
+
+  
+}
+
+.icon{
+
+  margin: 0px;
+  width: 300px;
+  
+}
+.icon1{
+  margin: 10px;
+  font-size: 20px;
+  background-color: #fff;
+ 
+}
+
+.icon1:hover{
+  color:#8E8E8E;
+  cursor: pointer;
+}
+
+.likes,.caption,.comment{
+  margin: 2px 5px;
+}
+
+.comment{
+  color:#8E8E8E;
+  font-size: medium;
+  border: 0;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+
+}
+
+.addcomment{
+ margin: 0% 4px;
+ font-size: 30px;
+ 
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #EEEEEE;
+ border-bottom: 2px solid #EEEEEE;
+ height: 50px;
+ padding: 10px;
+}
+
+#comment{
+  margin: 3px;
+}
+
+a{
+ text-decoration: none;
+color:  black;
+}
+
+a:hover{
+  color:#8E8E8E;
+  cursor: pointer;
+}
+
+a:active{
+  border: 0;
+}
+
+
+button{
+  border: 0;
+  color: #0095F6;
+  background-color: white;
+  cursor: pointer;
+}
+
