@@ -11,10 +11,13 @@ const Post3 = () => {
     const [like, setLike] = useState(0)
     const [commentCount, setCommentCount] = useState(0)
     return (
-  
+        <div>
+
+      
+
       <div className="main">
   
-  
+       
   
   
         <div className="header">
@@ -27,7 +30,7 @@ const Post3 = () => {
   
   
         <div>
-          <img src={Post} width="500" height="500" alt="" />
+          <img src={Post} width="450" height="450" alt="" />
   
         </div>
         <div className="icons">
@@ -78,6 +81,8 @@ const Post3 = () => {
         </div>
   
   
+      </div>
+
       </div>
   
     )

@@ -27,7 +27,7 @@ const Post1 = () => {
   
   
         <div>
-          <img src={Post} width="500" height="500" alt="" />
+          <img src={Post} width="450" height="450" alt="" />
   
         </div>
         <div className="icons">

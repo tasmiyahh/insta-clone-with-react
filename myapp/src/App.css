@@ -7,8 +7,8 @@
 .main{
   display: flex;
   flex-direction: column;
-  width: 500px;
-  margin:  auto;
+  width: 450px;
+  /* margin:  auto; */
   border: 2px solid #EEEEEE;
   border-radius: 10px;
   background-color: #fff;
@@ -118,5 +118,92 @@ button{
   color: #0095F6;
   background-color: white;
   cursor: pointer;
+}
+
+
+.mainhead{
+  display: flex;
+}
+
+.sidebar>h2{
+  width: 250px;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  font-family:sans-serif;
+  font-style: italic;
+ 
+}
+
+.sidebar>ul{
+  position: sticky;
+  top: 50px;
+ margin-left: 30px;
+  padding: 5px;
+}
+
+.sidebar2>ul{
+
+    position: sticky;
+    top: 10px;
+   margin-left: 30px;
+    padding: 5px;
+
+}
+
+.sidebar2>ul>li>b{
+  text-align: center;
+}
+
+li{
+  line-height: 50px;
+  list-style: none;
+ padding: 0;
+ margin: 0;
+ 
+ 
+}
+
+.sideicon{
+  padding-right: 10px;
+  font-size: 20px;
+
+}
+
+.title{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.sidebar2ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestions{
+  color:#8E8E8E;
+  padding: 0;
+  margin: 0;
+  font-size: smaller;
+
+}
+
+li>button{
+  padding-left: 20px;
+  background-color:#FAFAFA;
+}
+
+li>img{
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar,.sidebar2{
+    display: none;
+  }
+  .main{
+    width: 100%;
+  }
 }
 
