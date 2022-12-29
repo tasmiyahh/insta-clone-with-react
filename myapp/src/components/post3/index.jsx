@@ -49,11 +49,11 @@ const Post3 = () => {
   
         </div>
         <p className="likes" >
-          {(like === 0) ? "" : <p> {like} Likes</p>}
+          {(like3 === 0) ? "" : <p> {like3} Likes</p>}
         </p>
         <p className="caption"><b>Maria_imran</b> NOT TO QUIT!</p>
         <p className="comment" id="showcomment3">
-          {(commentCount === 0) ? "" : <p>view all {commentCount} comments </p>}
+          {(commentCount3 === 0) ? "" : <p>view all {commentCount3} comments </p>}
         </p>
         <p id="comment3">
   
@@ -65,7 +65,7 @@ const Post3 = () => {
               <input type="text" id="input" placeholder="Add a comment" className="comment"
                 onChange={(e) => (
   
-                  setComment(e.target.value)
+                  setComment3(e.target.value)
   
                 )}
               />
@@ -74,7 +74,7 @@ const Post3 = () => {
           <p className="addcomment" onClick={() => {
             document.querySelector("#comment3").innerHTML += "<b>User_</b>" + comment + "<FontAwesomeIcon icon={faHeart}/>" + "<br/>"
           }} > <button onClick={() => {
-            setCommentCount(commentCount + 1)
+            setCommentCount3(commentCount3 + 1)
           }}>post</button> </p>
   
   
